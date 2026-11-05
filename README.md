@@ -1,37 +1,29 @@
-# LUMEN — Digital Art Gallery
+# LUMEN — A space for art
 
-A modern, futuristic digital art gallery built with HTML, CSS and vanilla JavaScript. No build step, account or external dependencies.
+A responsive HTML/CSS/JavaScript gallery with 20 selected artworks: four each in Abstract, Landscape, Architecture, Photography and Other. Each work has a short interpretive story.
 
-## Getting started
+## Run locally
 
-Serve the folder with any local web server (for example the Live Server extension in VS Code) and open `index.html`.
+Open C:\Projects\CodeAlpha_ImageGallery in VS Code. Right-click index.html and choose Open with Live Server. Keep the same address and port to access your saved uploads.
+
+## Faster image loading
+
+- 320px and 640px WebP thumbnails selected for screen size.
+- Grid cards request previews only when within 180px of the viewport.
+- Complete 1200px artwork images load only when opened in the lightbox.
+- Content-hashed image filenames and Netlify browser-cache headers.
+- Two automatic retries plus a manual retry on failed cards.
 
 ## Features
 
-- 44 local artworks: 8 Abstract, 8 Landscape, 8 Architecture, 10 Photography and 10 Other
-- Category filters, search, and collection views (exhibition, my artwork, favourites)
-- Upload, edit and delete your own artwork (JPG, PNG, WebP, GIF, AVIF up to 15 MB)
-- Favourites, dark/light theme, full-window lightbox with fullscreen and arrow-key navigation
-- Fully responsive, keyboard accessible, respects reduced-motion settings
+Search, categories, favourites, light/dark themes, full-window lightbox, fullscreen, arrow-key navigation, and personal uploads with title, artist, category and description. Uploaded images, edits and favourites persist in IndexedDB.
 
-## Privacy
+Uploads stay in this browser on this device and do not become public website content. Clearing site data removes personal uploads. Keep original files as backups. Existing curated artwork IDs and database name are preserved; favourites for pieces outside this selection are excluded from the displayed count.
 
-Uploads are stored only in your browser on this device and are never sent to a server.
+## Deploy
 
-## Credits
+Commit the project and push to GitHub, then deploy the latest commit on Netlify. Build command: empty. Publish directory: dot (.). No dependencies or build step. The _headers file belongs beside index.html. Old unused image files can remain in an existing checkout; the gallery references only these 20 works.
 
-The six original LUMEN Studio pieces are no longer displayed. The 44 added fine-art images are sourced from Wikimedia Commons records marked Public domain or CC0. See CREDITS.md or the Artwork credits page for individual artists, source links and licence labels.
+## Artwork credits
 
-## Expanded collection
-
-Open the project folder in VS Code, right-click index.html, and choose **Open with Live Server**. No internet connection is needed to display the artworks. Source wording and links are removed from the exhibition and lightbox. Provenance remains in the project’s credit files. Keep using the same hostname and port to retain access to your existing browser-saved uploads and favourites.
-
-collection.js holds the 44 new catalogue entries. assets/collection/ holds the corresponding WebP files. The existing app, theme, categories, curated artwork IDs and IndexedDB database name are retained.
-
-## Artwork stories
-
-Each artwork now has its own short interpretive caption directly beneath the title, also used in the lightbox. Captions describe the visual mood and composition rather than presenting invented historical events. Existing portraits and uploaded artwork remain available.
-
-## Image loading update
-
-The same 44 artworks are bundled as optimized WebP files. The first row loads eagerly, images decode asynchronously, and transient failures retry twice. Select an unavailable image card to try again.
+See CREDITS.md for artists and source records. The public gallery and lightbox show stories without source wording. assets/exhibition contains only the selected works and their preview variants.

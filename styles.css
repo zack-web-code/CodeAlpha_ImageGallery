@@ -98,3 +98,6 @@ body:has(dialog[open]){overflow:hidden}
 
 /* Keep image failures recoverable instead of leaving blank cards. */
 .art-open{position:relative}.image-status{display:none;position:absolute;inset:0;align-items:center;justify-content:center;padding:24px;background:var(--surface);color:var(--text);font-size:13px;line-height:1.6}.art-image.image-failed{opacity:0}.art-image.image-failed+.image-status{display:flex}
+
+/* Reserve artwork space while small previews load. */
+.art-image.image-pending{opacity:0}.art-open:has(.image-pending){background:var(--surface)}
