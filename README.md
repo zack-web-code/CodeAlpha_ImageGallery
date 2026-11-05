@@ -33,3 +33,7 @@ See CREDITS.md for artists and source records. The public gallery and lightbox s
 The first three 320px previews and their captions are embedded in index.html. They render before JavaScript is available and need no separate image requests. The app reuses those same previews after startup, including when filtering. The other 17 previews still load near the viewport; full compositions load only on opening the lightbox.
 
 The home page also embeds the stylesheet so CSS download latency cannot hold back its first paint. styles.css remains available for the credits page. After editing styles.css, run `node tools/sync-inline-style.cjs` from the project folder to synchronize the home page. The initial HTML cannot appear before the browser receives it; these changes eliminate additional first-preview requests, not the initial connection time.
+
+## Smooth lightbox navigation
+
+A decoded-image cache keeps recent full images ready. After the active work finishes loading, the next and previous work in the filtered view are prefetched at low priority. Hovering over or focusing an artwork warms that work before opening it. Save-Data mode disables speculative prefetching. While a full image is loading, its thumbnail remains visible with the current title and story. Rapid navigation ignores stale completions. Failed full-image requests retry twice and then leave the preview visible with a Retry control. The opening fade animation is disabled on the lightbox image. First-row embedded previews and scroll-based grid loading remain in place.

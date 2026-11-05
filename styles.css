@@ -104,3 +104,6 @@ body:has(dialog[open]){overflow:hidden}
 
 /* Initial embedded previews remain visible during script startup. */
 .gallery article[data-initial],.gallery article[data-embedded]{animation:none}
+
+/* Keep a preview visible while detail loads; do not replay a fade on navigation. */
+#light-image{animation:none}#light-status{font-size:11px;color:var(--muted);min-height:1.6em}#light-retry{font-size:12px;padding:6px 12px;margin-top:4px}#light-retry[hidden]{display:none}
