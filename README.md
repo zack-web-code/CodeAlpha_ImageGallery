@@ -27,3 +27,9 @@ Commit the project and push to GitHub, then deploy the latest commit on Netlify.
 ## Artwork credits
 
 See CREDITS.md for artists and source records. The public gallery and lightbox show stories without source wording. assets/exhibition contains only the selected works and their preview variants.
+
+## Instant initial previews
+
+The first three 320px previews and their captions are embedded in index.html. They render before JavaScript is available and need no separate image requests. The app reuses those same previews after startup, including when filtering. The other 17 previews still load near the viewport; full compositions load only on opening the lightbox.
+
+The home page also embeds the stylesheet so CSS download latency cannot hold back its first paint. styles.css remains available for the credits page. After editing styles.css, run `node tools/sync-inline-style.cjs` from the project folder to synchronize the home page. The initial HTML cannot appear before the browser receives it; these changes eliminate additional first-preview requests, not the initial connection time.

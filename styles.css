@@ -101,3 +101,6 @@ body:has(dialog[open]){overflow:hidden}
 
 /* Reserve artwork space while small previews load. */
 .art-image.image-pending{opacity:0}.art-open:has(.image-pending){background:var(--surface)}
+
+/* Initial embedded previews remain visible during script startup. */
+.gallery article[data-initial],.gallery article[data-embedded]{animation:none}
