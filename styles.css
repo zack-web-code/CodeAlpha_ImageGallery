@@ -95,3 +95,6 @@ body:has(dialog[open]){overflow:hidden}
 
 /* Artwork stories sit directly below their titles. */
 .art-info .art-story{font-size:13px;line-height:1.75;color:var(--muted);margin:10px 0 9px;max-width:58ch}.art-info .art-artist{font-size:11px;letter-spacing:.04em;color:var(--muted);margin-top:9px}
+
+/* Keep image failures recoverable instead of leaving blank cards. */
+.art-open{position:relative}.image-status{display:none;position:absolute;inset:0;align-items:center;justify-content:center;padding:24px;background:var(--surface);color:var(--text);font-size:13px;line-height:1.6}.art-image.image-failed{opacity:0}.art-image.image-failed+.image-status{display:flex}

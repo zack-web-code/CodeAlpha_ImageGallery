@@ -26,8 +26,12 @@ The six original LUMEN Studio pieces are no longer displayed. The 44 added fine-
 
 Open the project folder in VS Code, right-click index.html, and choose **Open with Live Server**. No internet connection is needed to display the artworks. Source wording and links are removed from the exhibition and lightbox. Provenance remains in the project’s credit files. Keep using the same hostname and port to retain access to your existing browser-saved uploads and favourites.
 
-collection.js holds the 44 new catalogue entries. assets/collection/ holds the corresponding JPEG files. The existing app, theme, categories, curated artwork IDs and IndexedDB database name are retained.
+collection.js holds the 44 new catalogue entries. assets/collection/ holds the corresponding WebP files. The existing app, theme, categories, curated artwork IDs and IndexedDB database name are retained.
 
 ## Artwork stories
 
 Each artwork now has its own short interpretive caption directly beneath the title, also used in the lightbox. Captions describe the visual mood and composition rather than presenting invented historical events. Existing portraits and uploaded artwork remain available.
+
+## Image loading update
+
+The same 44 artworks are bundled as optimized WebP files. The first row loads eagerly, images decode asynchronously, and transient failures retry twice. Select an unavailable image card to try again.

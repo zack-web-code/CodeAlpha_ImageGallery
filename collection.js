@@ -1,5 +1,4 @@
 'use strict';
-// Curated artwork catalogue. Original provenance retained in CREDITS.md.
 const curatedArtwork = [
   {
     "id": "commons-178839132",
@@ -7,10 +6,12 @@ const curatedArtwork = [
     "artist": "Wassily Kandinsky",
     "category": "Abstract",
     "description": "A storm of colour gathers around sweeping lines and tangled forms. The eye moves through it like a listener following an orchestra, finding moments of calm inside the noise.",
-    "src": "assets/collection/commons-178839132.jpg",
+    "src": "assets/collection/commons-178839132.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Composition_VII_-_Wassily_Kandinsky,_GAC.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Composition VII - Wassily Kandinsky, GAC.jpg"
+    "sourceFile": "File:Composition VII - Wassily Kandinsky, GAC.jpg",
+    "width": 1000,
+    "height": 664
   },
   {
     "id": "commons-146301963",
@@ -18,10 +19,12 @@ const curatedArtwork = [
     "artist": "Wassily Kandinsky",
     "category": "Abstract",
     "description": "Circles, triangles and fine lines seem to float across an open field. Each shape has its own rhythm, yet together they suggest a carefully balanced piece of music.",
-    "src": "assets/collection/commons-146301963.jpg",
+    "src": "assets/collection/commons-146301963.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Kandinsky_-_Composition_8,_July_1923.jpg",
     "license": "CC0",
-    "sourceFile": "File:Kandinsky - Composition 8, July 1923.jpg"
+    "sourceFile": "File:Kandinsky - Composition 8, July 1923.jpg",
+    "width": 1000,
+    "height": 728
   },
   {
     "id": "commons-38658125",
@@ -29,10 +32,12 @@ const curatedArtwork = [
     "artist": "Wassily Kandinsky",
     "category": "Abstract",
     "description": "Warm yellow pushes against deep blue while red holds the space between them. Geometric edges and wandering curves turn the canvas into a conversation between order and impulse.",
-    "src": "assets/collection/commons-38658125.jpg",
+    "src": "assets/collection/commons-38658125.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Kandinsky_-_Jaune_Rouge_Bleu.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Kandinsky - Jaune Rouge Bleu.jpg"
+    "sourceFile": "File:Kandinsky - Jaune Rouge Bleu.jpg",
+    "width": 1000,
+    "height": 643
   },
   {
     "id": "commons-37610966",
@@ -40,10 +45,12 @@ const curatedArtwork = [
     "artist": "Wassily Kandinsky",
     "category": "Abstract",
     "description": "Luminous circles drift through a dark, almost cosmic space. Their overlapping colours suggest a small universe in which distance, light and gravity feel quietly uncertain.",
-    "src": "assets/collection/commons-37610966.jpg",
+    "src": "assets/collection/commons-37610966.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1926_-_Several_Circles,_Gugg_0910_25.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Vassily Kandinsky, 1926 - Several Circles, Gugg 0910 25.jpg"
+    "sourceFile": "File:Vassily Kandinsky, 1926 - Several Circles, Gugg 0910 25.jpg",
+    "width": 982,
+    "height": 1000
   },
   {
     "id": "commons-37642803",
@@ -51,10 +58,12 @@ const curatedArtwork = [
     "artist": "Piet Mondrian",
     "category": "Abstract",
     "description": "A red plane meets black lines and small passages of blue and yellow. With very few elements, the painting creates a tension between movement and stillness.",
-    "src": "assets/collection/commons-37642803.jpg",
+    "src": "assets/collection/commons-37642803.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Piet Mondriaan, 1930 - Mondrian Composition II in Red, Blue, and Yellow.jpg"
+    "sourceFile": "File:Piet Mondriaan, 1930 - Mondrian Composition II in Red, Blue, and Yellow.jpg",
+    "width": 986,
+    "height": 1000
   },
   {
     "id": "commons-60011148",
@@ -62,10 +71,12 @@ const curatedArtwork = [
     "artist": "Piet Mondrian",
     "category": "Abstract",
     "description": "Black divisions hold blocks of colour in an uneven balance. The white spaces become active pauses, giving the composition room to breathe.",
-    "src": "assets/collection/commons-60011148.jpg",
+    "src": "assets/collection/commons-60011148.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Composition_with_Red,_Yellow,_Black,_Blue_and_Grey_by_Piet_Mondrian,_1921.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Composition with Red, Yellow, Black, Blue and Grey by Piet Mondrian, 1921.jpg"
+    "sourceFile": "File:Composition with Red, Yellow, Black, Blue and Grey by Piet Mondrian, 1921.jpg",
+    "width": 595,
+    "height": 734
   },
   {
     "id": "commons-99160918",
@@ -73,10 +84,12 @@ const curatedArtwork = [
     "artist": "Hilma af Klint",
     "category": "Abstract",
     "description": "Spirals, petals and rounded shapes unfold across a warm field of colour. The image feels like growth made visible: playful, searching and full of new beginnings.",
-    "src": "assets/collection/commons-99160918.jpg",
+    "src": "assets/collection/commons-99160918.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._3_-_Youth_-_1907.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Hilma af Klint - The Ten Largest No. 3 - Youth - 1907.jpg"
+    "sourceFile": "File:Hilma af Klint - The Ten Largest No. 3 - Youth - 1907.jpg",
+    "width": 750,
+    "height": 1000
   },
   {
     "id": "commons-5131913",
@@ -84,10 +97,12 @@ const curatedArtwork = [
     "artist": "Kazimir Malevich",
     "category": "Abstract",
     "description": "Slanted bars and floating planes move across a pale ground. Freed from a familiar horizon, they invite the viewer to experience direction and balance as subjects in themselves.",
-    "src": "assets/collection/commons-5131913.jpg",
+    "src": "assets/collection/commons-5131913.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Suprematist_Composition_-_Kazimir_Malevich.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Suprematist Composition - Kazimir Malevich.jpg"
+    "sourceFile": "File:Suprematist Composition - Kazimir Malevich.jpg",
+    "width": 801,
+    "height": 1000
   },
   {
     "id": "commons-1929792",
@@ -95,10 +110,12 @@ const curatedArtwork = [
     "artist": "Claude Monet",
     "category": "Landscape",
     "description": "Water lilies rest above reflections that seem to dissolve the pond’s surface. Sky and water become difficult to separate, turning a quiet garden into an almost weightless world.",
-    "src": "assets/collection/commons-1929792.jpg",
+    "src": "assets/collection/commons-1929792.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Claude Monet - Water Lilies - 1906, Ryerson.jpg"
+    "sourceFile": "File:Claude Monet - Water Lilies - 1906, Ryerson.jpg",
+    "width": 1000,
+    "height": 961
   },
   {
     "id": "commons-23750619",
@@ -106,10 +123,12 @@ const curatedArtwork = [
     "artist": "Claude Monet",
     "category": "Landscape",
     "description": "An orange sun hovers above a harbour softened by mist. Boats and distant structures emerge only briefly, as if the day is still deciding what to reveal.",
-    "src": "assets/collection/commons-23750619.jpg",
+    "src": "assets/collection/commons-23750619.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Monet - Impression, Sunrise.jpg"
+    "sourceFile": "File:Monet - Impression, Sunrise.jpg",
+    "width": 1000,
+    "height": 776
   },
   {
     "id": "commons-4603625",
@@ -117,10 +136,12 @@ const curatedArtwork = [
     "artist": "Vincent van Gogh",
     "category": "Landscape",
     "description": "A village lies beneath a sky alive with curling light. The dark cypress reaches upward, joining the quiet ground to a night that seems to pulse with feeling.",
-    "src": "assets/collection/commons-4603625.jpg",
+    "src": "assets/collection/commons-4603625.webp",
     "source": "https://commons.wikimedia.org/wiki/File:VanGogh-starry_night_ballance1.jpg",
     "license": "Public domain",
-    "sourceFile": "File:VanGogh-starry night ballance1.jpg"
+    "sourceFile": "File:VanGogh-starry night ballance1.jpg",
+    "width": 1000,
+    "height": 798
   },
   {
     "id": "commons-151879",
@@ -128,10 +149,12 @@ const curatedArtwork = [
     "artist": "Vincent van Gogh",
     "category": "Landscape",
     "description": "Wheat bends beneath a restless blue sky while dark cypresses rise at the field’s edge. Land and clouds share the same flowing energy, making the whole scene feel in motion.",
-    "src": "assets/collection/commons-151879.jpg",
+    "src": "assets/collection/commons-151879.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Wheat_Field_with_Cypresses_(National_Gallery_version).jpg",
     "license": "Public domain",
-    "sourceFile": "File:Vincent van Gogh - Wheat Field with Cypresses (National Gallery version).jpg"
+    "sourceFile": "File:Vincent van Gogh - Wheat Field with Cypresses (National Gallery version).jpg",
+    "width": 1000,
+    "height": 795
   },
   {
     "id": "commons-5576388",
@@ -139,10 +162,12 @@ const curatedArtwork = [
     "artist": "Katsushika Hokusai",
     "category": "Landscape",
     "description": "A towering wave curls over small boats, its foam reaching like fingers. Far away, Mount Fuji remains still, setting human effort against the immense movement of the sea.",
-    "src": "assets/collection/commons-5576388.jpg",
+    "src": "assets/collection/commons-5576388.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Great_Wave_off_Kanagawa2.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Great Wave off Kanagawa2.jpg"
+    "sourceFile": "File:Great Wave off Kanagawa2.jpg",
+    "width": 1000,
+    "height": 684
   },
   {
     "id": "commons-58786013",
@@ -150,10 +175,12 @@ const curatedArtwork = [
     "artist": "Utagawa Hiroshige",
     "category": "Landscape",
     "description": "Snow gathers on roofs, trees and a hillside road. A few travellers cross the pale landscape, their small figures deepening the scene’s enveloping silence.",
-    "src": "assets/collection/commons-58786013.jpg",
+    "src": "assets/collection/commons-58786013.webp",
     "source": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E6%B5%B7%E9%81%93%E4%BA%94%E5%8D%81%E4%B8%89%E6%AC%A1%E4%B9%8B%E5%86%85_%E8%92%B2%E5%8E%9F_%E5%A4%9C%E3%81%AE%E9%9B%AA-Evening_Snow_at_Kanbara,_from_the_series_%22Fifty-three_Stations_of_the_T%C5%8Dkaid%C5%8D%22_MET_DP109333.jpg",
     "license": "Public domain",
-    "sourceFile": "File:東海道五十三次之内 蒲原 夜の雪-Evening Snow at Kanbara, from the series \"Fifty-three Stations of the Tōkaidō\" MET DP109333.jpg"
+    "sourceFile": "File:東海道五十三次之内 蒲原 夜の雪-Evening Snow at Kanbara, from the series \"Fifty-three Stations of the Tōkaidō\" MET DP109333.jpg",
+    "width": 1000,
+    "height": 665
   },
   {
     "id": "commons-1020146",
@@ -161,10 +188,12 @@ const curatedArtwork = [
     "artist": "Caspar David Friedrich",
     "category": "Landscape",
     "description": "A lone figure stands above a landscape concealed by cloud. With his face turned away, the view becomes an invitation to imagine what it feels like to face the unknown.",
-    "src": "assets/collection/commons-1020146.jpg",
+    "src": "assets/collection/commons-1020146.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Caspar David Friedrich - Wanderer above the sea of fog.jpg"
+    "sourceFile": "File:Caspar David Friedrich - Wanderer above the sea of fog.jpg",
+    "width": 781,
+    "height": 1000
   },
   {
     "id": "commons-37144597",
@@ -172,10 +201,12 @@ const curatedArtwork = [
     "artist": "J. M. W. Turner",
     "category": "Landscape",
     "description": "An old sailing ship follows a small tug across glowing water. The contrast between the two vessels gives the sunset a feeling of farewell and the passage of time.",
-    "src": "assets/collection/commons-37144597.jpg",
+    "src": "assets/collection/commons-37144597.webp",
     "source": "https://commons.wikimedia.org/wiki/File:The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg",
     "license": "Public domain",
-    "sourceFile": "File:The Fighting Temeraire, JMW Turner, National Gallery.jpg"
+    "sourceFile": "File:The Fighting Temeraire, JMW Turner, National Gallery.jpg",
+    "width": 1000,
+    "height": 743
   },
   {
     "id": "commons-60882969",
@@ -183,10 +214,12 @@ const curatedArtwork = [
     "artist": "Giovanni Battista Piranesi",
     "category": "Architecture",
     "description": "Stairs, arches and platforms lead the eye into an immense imagined interior. Each route promises an exit, yet the space keeps opening into further uncertainty.",
-    "src": "assets/collection/commons-60882969.jpg",
+    "src": "assets/collection/commons-60882969.webp",
     "source": "https://commons.wikimedia.org/wiki/File:The_Gothic_Arch,_from_Carceri_d%27invenzione_(Imaginary_Prisons)_MET_DP828196.jpg",
     "license": "CC0",
-    "sourceFile": "File:The Gothic Arch, from Carceri d'invenzione (Imaginary Prisons) MET DP828196.jpg"
+    "sourceFile": "File:The Gothic Arch, from Carceri d'invenzione (Imaginary Prisons) MET DP828196.jpg",
+    "width": 1000,
+    "height": 763
   },
   {
     "id": "commons-60843657",
@@ -194,10 +227,12 @@ const curatedArtwork = [
     "artist": "Giovanni Battista Piranesi",
     "category": "Architecture",
     "description": "Heavy beams and a suspended bridge cut across a cavernous structure. Tiny figures make the architecture feel overwhelming, as though the building has become a world of its own.",
-    "src": "assets/collection/commons-60843657.jpg",
+    "src": "assets/collection/commons-60843657.webp",
     "source": "https://commons.wikimedia.org/wiki/File:The_Drawbridge,_from_Carceri_d%27invenzione_(Imaginary_Prisons)_MET_DP828200.jpg",
     "license": "CC0",
-    "sourceFile": "File:The Drawbridge, from Carceri d'invenzione (Imaginary Prisons) MET DP828200.jpg"
+    "sourceFile": "File:The Drawbridge, from Carceri d'invenzione (Imaginary Prisons) MET DP828200.jpg",
+    "width": 757,
+    "height": 1000
   },
   {
     "id": "commons-18298991",
@@ -205,10 +240,12 @@ const curatedArtwork = [
     "artist": "Giovanni Battista Piranesi",
     "category": "Architecture",
     "description": "The broad piazza opens before the dome of St. Peter’s. Small figures animate the foreground, bringing everyday movement into the scale and ceremony of the monumental setting.",
-    "src": "assets/collection/commons-18298991.jpg",
+    "src": "assets/collection/commons-18298991.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Piranesi-16006.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Piranesi-16006.jpg"
+    "sourceFile": "File:Piranesi-16006.jpg",
+    "width": 1000,
+    "height": 741
   },
   {
     "id": "commons-18572666",
@@ -216,10 +253,12 @@ const curatedArtwork = [
     "artist": "Francesco Piranesi",
     "category": "Architecture",
     "description": "Light enters through the circular opening above the Pantheon’s vast interior. Repeating coffers draw the eye upward, turning a massive stone dome into a study of rhythm and space.",
-    "src": "assets/collection/commons-18572666.jpg",
+    "src": "assets/collection/commons-18572666.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Piranesi-17004.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Piranesi-17004.jpg"
+    "sourceFile": "File:Piranesi-17004.jpg",
+    "width": 1000,
+    "height": 727
   },
   {
     "id": "commons-157404046",
@@ -227,10 +266,12 @@ const curatedArtwork = [
     "artist": "Bernardo Bellotto",
     "category": "Architecture",
     "description": "Boats travel between the buildings that line Venice’s Grand Canal. The water gathers their reflections, joining the city’s activity to a slower, shimmering rhythm.",
-    "src": "assets/collection/commons-157404046.jpg",
+    "src": "assets/collection/commons-157404046.webp",
     "source": "https://commons.wikimedia.org/wiki/File:(Venice)_Veduta_del_Canal_Grande_dalla_Punta_della_Dogana_-_Bernardo_Bellotto.jpg",
     "license": "Public domain",
-    "sourceFile": "File:(Venice) Veduta del Canal Grande dalla Punta della Dogana - Bernardo Bellotto.jpg"
+    "sourceFile": "File:(Venice) Veduta del Canal Grande dalla Punta della Dogana - Bernardo Bellotto.jpg",
+    "width": 1000,
+    "height": 634
   },
   {
     "id": "commons-15493960",
@@ -238,10 +279,12 @@ const curatedArtwork = [
     "artist": "Canaletto",
     "category": "Architecture",
     "description": "The long sides of the square guide the eye towards distant towers and façades. Small gatherings of people bring a sense of conversation and daily life to the grand geometry.",
-    "src": "assets/collection/commons-15493960.jpg",
+    "src": "assets/collection/commons-15493960.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Giovanni_Antonio_Canal,_il_Canaletto_-_Piazza_San_Marco_-_WGA03883.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Giovanni Antonio Canal, il Canaletto - Piazza San Marco - WGA03883.jpg"
+    "sourceFile": "File:Giovanni Antonio Canal, il Canaletto - Piazza San Marco - WGA03883.jpg",
+    "width": 1000,
+    "height": 616
   },
   {
     "id": "commons-22009552",
@@ -249,10 +292,12 @@ const curatedArtwork = [
     "artist": "Claude Monet",
     "category": "Architecture",
     "description": "The cathedral’s stone façade appears to dissolve into veils of blue and gold. Details matter less than the light passing across them, making the building feel briefly changeable.",
-    "src": "assets/collection/commons-22009552.jpg",
+    "src": "assets/collection/commons-22009552.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Rouen_Cathedral_Fa%C3%A7ade_and_Tour_d%27Albane_(Morning_Effect)_-_Google_Art_Project.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Claude Monet - Rouen Cathedral Façade and Tour d'Albane (Morning Effect) - Google Art Project.jpg"
+    "sourceFile": "File:Claude Monet - Rouen Cathedral Façade and Tour d'Albane (Morning Effect) - Google Art Project.jpg",
+    "width": 688,
+    "height": 1000
   },
   {
     "id": "commons-21909139",
@@ -260,10 +305,12 @@ const curatedArtwork = [
     "artist": "Gustave Caillebotte",
     "category": "Architecture",
     "description": "Umbrellas repeat across wet Parisian streets as pedestrians pass one another. The broad pavement and carefully placed figures turn an ordinary walk into a scene of quiet distance.",
-    "src": "assets/collection/commons-21909139.jpg",
+    "src": "assets/collection/commons-21909139.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg"
+    "sourceFile": "File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg",
+    "width": 1000,
+    "height": 758
   },
   {
     "id": "commons-22622285",
@@ -271,10 +318,12 @@ const curatedArtwork = [
     "artist": "Alfred Stieglitz",
     "category": "Photography",
     "description": "Railings, a gangway and the curve of a funnel divide a crowded ship into layers. Faces and clothing create a human pattern within the strong geometry of the vessel.",
-    "src": "assets/collection/commons-22622285.jpg",
+    "src": "assets/collection/commons-22622285.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project,_from_Getty.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Alfred Stieglitz - The Steerage - Google Art Project, from Getty.jpg"
+    "sourceFile": "File:Alfred Stieglitz - The Steerage - Google Art Project, from Getty.jpg",
+    "width": 794,
+    "height": 1000
   },
   {
     "id": "commons-22622251",
@@ -282,10 +331,12 @@ const curatedArtwork = [
     "artist": "Alfred Stieglitz",
     "category": "Photography",
     "description": "A tall building recedes behind a bare tree and a veil of city atmosphere. Its sharp outline softens into the street, making modern architecture feel strangely dreamlike.",
-    "src": "assets/collection/commons-22622251.jpg",
+    "src": "assets/collection/commons-22622251.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Flatiron_Building_-_Google_Art_Project.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Alfred Stieglitz - The Flatiron Building - Google Art Project.jpg"
+    "sourceFile": "File:Alfred Stieglitz - The Flatiron Building - Google Art Project.jpg",
+    "width": 504,
+    "height": 1000
   },
   {
     "id": "commons-110117442",
@@ -293,10 +344,12 @@ const curatedArtwork = [
     "artist": "Alfred Stieglitz",
     "category": "Photography",
     "description": "Railway tracks converge beneath a sky darkened by smoke. The locomotive’s distant presence gives the landscape a restless sense of labour, movement and industrial power.",
-    "src": "assets/collection/commons-110117442.jpg",
+    "src": "assets/collection/commons-110117442.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Hand_of_Man_-_Google_Art_Project_(color_corrected).jpg",
     "license": "Public domain",
-    "sourceFile": "File:Alfred Stieglitz - The Hand of Man - Google Art Project (color corrected).jpg"
+    "sourceFile": "File:Alfred Stieglitz - The Hand of Man - Google Art Project (color corrected).jpg",
+    "width": 1000,
+    "height": 742
   },
   {
     "id": "commons-3938137",
@@ -304,10 +357,12 @@ const curatedArtwork = [
     "artist": "Edward Steichen",
     "category": "Photography",
     "description": "The Flatiron rises through a blue-green haze behind dark branches. Small lights and blurred figures transform a busy city corner into a hushed evening scene.",
-    "src": "assets/collection/commons-3938137.jpg",
+    "src": "assets/collection/commons-3938137.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Steichen_flatiron.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Steichen flatiron.jpg"
+    "sourceFile": "File:Steichen flatiron.jpg",
+    "width": 789,
+    "height": 1000
   },
   {
     "id": "commons-29715848",
@@ -315,10 +370,12 @@ const curatedArtwork = [
     "artist": "Alvin Langdon Coburn",
     "category": "Photography",
     "description": "Seen from above, winding paths and bare trees become an intricate dark pattern. The familiar city is briefly transformed into a drawing of loops, shadows and branching lines.",
-    "src": "assets/collection/commons-29715848.jpg",
+    "src": "assets/collection/commons-29715848.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Alvin_Langdon_Coburn_-_The_Octopus,_New_York_-_Google_Art_Project.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Alvin Langdon Coburn - The Octopus, New York - Google Art Project.jpg"
+    "sourceFile": "File:Alvin Langdon Coburn - The Octopus, New York - Google Art Project.jpg",
+    "width": 754,
+    "height": 1000
   },
   {
     "id": "commons-112756262",
@@ -326,10 +383,12 @@ const curatedArtwork = [
     "artist": "Eugène Atget",
     "category": "Photography",
     "description": "Foliage closes around a shaded pool and a weathered sculptural fountain. Deep shadows make the garden feel secluded, as though it holds a story just beyond the camera’s view.",
-    "src": "assets/collection/commons-112756262.jpg",
+    "src": "assets/collection/commons-112756262.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget_-_Versailles,_Fountain_of_Enceladus_-_1985.117_-_Cleveland_Museum_of_Art.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Eugène Atget - Versailles, Fountain of Enceladus - 1985.117 - Cleveland Museum of Art.jpg"
+    "sourceFile": "File:Eugène Atget - Versailles, Fountain of Enceladus - 1985.117 - Cleveland Museum of Art.jpg",
+    "width": 777,
+    "height": 1000
   },
   {
     "id": "commons-77781780",
@@ -337,10 +396,12 @@ const curatedArtwork = [
     "artist": "Julia Margaret Cameron",
     "category": "Photography",
     "description": "A young woman’s face emerges from soft shadow, her gaze directed beyond the frame. The close portrait leaves little distraction, holding attention on the stillness of her expression.",
-    "src": "assets/collection/commons-77781780.jpg",
+    "src": "assets/collection/commons-77781780.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Julia_Margaret_Cameron_-_Julia_Jackson_-_2015.15_-_Cleveland_Museum_of_Art.tif",
     "license": "CC0",
-    "sourceFile": "File:Julia Margaret Cameron - Julia Jackson - 2015.15 - Cleveland Museum of Art.tif"
+    "sourceFile": "File:Julia Margaret Cameron - Julia Jackson - 2015.15 - Cleveland Museum of Art.tif",
+    "width": 794,
+    "height": 1000
   },
   {
     "id": "commons-95174186",
@@ -348,10 +409,12 @@ const curatedArtwork = [
     "artist": "Julia Margaret Cameron",
     "category": "Photography",
     "description": "Wild white hair catches the light around a deeply lined face. The direct gaze feels searching and alert, giving the portrait an intensity that outlasts its quiet setting.",
-    "src": "assets/collection/commons-95174186.jpg",
+    "src": "assets/collection/commons-95174186.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_John_Herschel_by_Julia_Margaret_Cameron,_1867.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Portrait of Sir John Herschel by Julia Margaret Cameron, 1867.jpg"
+    "sourceFile": "File:Portrait of Sir John Herschel by Julia Margaret Cameron, 1867.jpg",
+    "width": 774,
+    "height": 1000
   },
   {
     "id": "commons-2760354",
@@ -359,10 +422,12 @@ const curatedArtwork = [
     "artist": "Anna Atkins",
     "category": "Photography",
     "description": "A pale strand of seaweed rests against a rich blue ground. Its delicate outline turns a botanical specimen into an image that feels at once scientific and quietly poetic.",
-    "src": "assets/collection/commons-2760354.jpg",
+    "src": "assets/collection/commons-2760354.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Anna_Atkins_Saccharina_latissima.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Anna Atkins Saccharina latissima.jpg"
+    "sourceFile": "File:Anna Atkins Saccharina latissima.jpg",
+    "width": 547,
+    "height": 756
   },
   {
     "id": "commons-153641241",
@@ -370,10 +435,12 @@ const curatedArtwork = [
     "artist": "Edward Weston",
     "category": "Photography",
     "description": "Light moves across the shell’s smooth curve and repeating inner chambers. Framed closely, this small natural object becomes a sculptural study of growth and proportion.",
-    "src": "assets/collection/commons-153641241.jpg",
+    "src": "assets/collection/commons-153641241.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Nautilus_Shell,_1927,_by_Edward_Weston,_edit.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Nautilus Shell, 1927, by Edward Weston, edit.jpg"
+    "sourceFile": "File:Nautilus Shell, 1927, by Edward Weston, edit.jpg",
+    "width": 813,
+    "height": 1000
   },
   {
     "id": "commons-21980452",
@@ -381,10 +448,12 @@ const curatedArtwork = [
     "artist": "Odilon Redon",
     "category": "Other",
     "description": "Butterflies hover above a gathering of flowers and rich colour. The soft, shifting forms suggest a garden remembered through a dream rather than a place seen at a single moment.",
-    "src": "assets/collection/commons-21980452.jpg",
+    "src": "assets/collection/commons-21980452.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Odilon_Redon_-_Butterflies_-_Google_Art_Project.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Odilon Redon - Butterflies - Google Art Project.jpg"
+    "sourceFile": "File:Odilon Redon - Butterflies - Google Art Project.jpg",
+    "width": 739,
+    "height": 1000
   },
   {
     "id": "commons-77814532",
@@ -392,10 +461,12 @@ const curatedArtwork = [
     "artist": "Odilon Redon",
     "category": "Other",
     "description": "A vase of flowers rises from a deep blue setting into warm, hazy light. Distinct blooms give way to flecks of colour, making the arrangement feel suspended between observation and imagination.",
-    "src": "assets/collection/commons-77814532.jpg",
+    "src": "assets/collection/commons-77814532.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Odilon_Redon_-_Vase_of_Flowers_-_1935.233_-_Cleveland_Museum_of_Art.tif",
     "license": "CC0",
-    "sourceFile": "File:Odilon Redon - Vase of Flowers - 1935.233 - Cleveland Museum of Art.tif"
+    "sourceFile": "File:Odilon Redon - Vase of Flowers - 1935.233 - Cleveland Museum of Art.tif",
+    "width": 735,
+    "height": 1000
   },
   {
     "id": "commons-22009499",
@@ -403,10 +474,12 @@ const curatedArtwork = [
     "artist": "Henri Fantin-Latour",
     "category": "Other",
     "description": "Pale roses emerge from a dark background, their petals catching small changes in light. The restrained setting lets the flowers’ softness and fragile edges carry the entire scene.",
-    "src": "assets/collection/commons-22009499.jpg",
+    "src": "assets/collection/commons-22009499.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Henri_Fantin-Latour_-_Roses_in_a_Vase_-_Google_Art_Project.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Henri Fantin-Latour - Roses in a Vase - Google Art Project.jpg"
+    "sourceFile": "File:Henri Fantin-Latour - Roses in a Vase - Google Art Project.jpg",
+    "width": 756,
+    "height": 1000
   },
   {
     "id": "commons-77744443",
@@ -414,10 +487,12 @@ const curatedArtwork = [
     "artist": "Martin Johnson Heade",
     "category": "Other",
     "description": "Magnolia blossoms lie beside glossy leaves on a richly coloured cloth. Their luminous petals and heavy shadows give this small arrangement the presence of a quiet, theatrical scene.",
-    "src": "assets/collection/commons-77744443.jpg",
+    "src": "assets/collection/commons-77744443.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Martin_Johnson_Heade_-_Magnolias_-_47.1157_-_Museum_of_Fine_Arts.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Martin Johnson Heade - Magnolias - 47.1157 - Museum of Fine Arts.jpg"
+    "sourceFile": "File:Martin Johnson Heade - Magnolias - 47.1157 - Museum of Fine Arts.jpg",
+    "width": 629,
+    "height": 1000
   },
   {
     "id": "commons-86345412",
@@ -425,10 +500,12 @@ const curatedArtwork = [
     "artist": "Jan Davidsz. de Heem",
     "category": "Other",
     "description": "Flowers of different shapes crowd into a glass vase, each bloom rendered with patient attention. The overflowing arrangement invites a slow journey through colour, texture and tiny details.",
-    "src": "assets/collection/commons-86345412.jpg",
+    "src": "assets/collection/commons-86345412.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Jan_Davidsz_de_Heem_-_Vase_of_Flowers_-_1099_-_Mauritshuis.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Jan Davidsz de Heem - Vase of Flowers - 1099 - Mauritshuis.jpg"
+    "sourceFile": "File:Jan Davidsz de Heem - Vase of Flowers - 1099 - Mauritshuis.jpg",
+    "width": 703,
+    "height": 1000
   },
   {
     "id": "commons-55017931",
@@ -436,10 +513,12 @@ const curatedArtwork = [
     "artist": "Johannes Vermeer",
     "category": "Other",
     "description": "A young woman turns towards the viewer as light touches her face and pearl earring. The dark background leaves her expression open, poised between recognition and a question.",
-    "src": "assets/collection/commons-55017931.jpg",
+    "src": "assets/collection/commons-55017931.webp",
     "source": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
     "license": "Public domain",
-    "sourceFile": "File:1665 Girl with a Pearl Earring.jpg"
+    "sourceFile": "File:1665 Girl with a Pearl Earring.jpg",
+    "width": 844,
+    "height": 1000
   },
   {
     "id": "commons-38827275",
@@ -447,10 +526,12 @@ const curatedArtwork = [
     "artist": "Gustav Klimt",
     "category": "Other",
     "description": "Two figures embrace inside a patterned field of gold. Rectangles, circles and flowers surround them, turning a private gesture into an image that feels precious and almost timeless.",
-    "src": "assets/collection/commons-38827275.jpg",
+    "src": "assets/collection/commons-38827275.webp",
     "source": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
     "license": "Public domain",
-    "sourceFile": "File:The Kiss - Gustav Klimt - Google Cultural Institute.jpg"
+    "sourceFile": "File:The Kiss - Gustav Klimt - Google Cultural Institute.jpg",
+    "width": 997,
+    "height": 1000
   },
   {
     "id": "commons-151972",
@@ -458,10 +539,12 @@ const curatedArtwork = [
     "artist": "Vincent van Gogh",
     "category": "Other",
     "description": "Sunflowers gather in a vase, some open and radiant, others beginning to droop. The many yellows hold brightness and weariness together, giving the arrangement a vivid, human warmth.",
-    "src": "assets/collection/commons-151972.jpg",
+    "src": "assets/collection/commons-151972.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_128.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Vincent Willem van Gogh 128.jpg"
+    "sourceFile": "File:Vincent Willem van Gogh 128.jpg",
+    "width": 800,
+    "height": 1000
   },
   {
     "id": "commons-21792126",
@@ -469,10 +552,12 @@ const curatedArtwork = [
     "artist": "Albrecht Dürer",
     "category": "Other",
     "description": "A hare sits alert, its fur described through fine shifts of brown and light. The patient attention given to an ordinary animal makes its fragile, watchful presence feel extraordinary.",
-    "src": "assets/collection/commons-21792126.jpg",
+    "src": "assets/collection/commons-21792126.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Hare,_1502_-_Google_Art_Project.jpg",
     "license": "Public domain",
-    "sourceFile": "File:Albrecht Dürer - Hare, 1502 - Google Art Project.jpg"
+    "sourceFile": "File:Albrecht Dürer - Hare, 1502 - Google Art Project.jpg",
+    "width": 905,
+    "height": 1000
   },
   {
     "id": "commons-81702571",
@@ -480,9 +565,11 @@ const curatedArtwork = [
     "artist": "Albrecht Dürer",
     "category": "Other",
     "description": "The rhinoceros appears wrapped in patterned armour, its heavy body covered with intricate textures. The print invites wonder at an animal that seems both familiar and fantastical.",
-    "src": "assets/collection/commons-81702571.jpg",
+    "src": "assets/collection/commons-81702571.webp",
     "source": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_The_Rhinoceros,_1515,_NGA_47903.jpg",
     "license": "CC0",
-    "sourceFile": "File:Albrecht Dürer, The Rhinoceros, 1515, NGA 47903.jpg"
+    "sourceFile": "File:Albrecht Dürer, The Rhinoceros, 1515, NGA 47903.jpg",
+    "width": 1000,
+    "height": 785
   }
 ];
