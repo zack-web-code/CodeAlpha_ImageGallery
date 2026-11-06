@@ -1,39 +1,63 @@
-# LUMEN — A space for art
+# LUMEN Art Gallery
 
-A responsive HTML/CSS/JavaScript gallery with 20 selected artworks: four each in Abstract, Landscape, Architecture, Photography and Other. Each work has a short interpretive story.
+LUMEN is an interactive digital art gallery built with HTML, CSS, and JavaScript. It brings together a curated exhibition and a personal collection where visitors can add their own work.
 
-## Run locally
+**Repository:** https://github.com/zack-web-code/LUMEN_ArtGallery
 
-Open C:\Projects\CodeAlpha_ImageGallery in VS Code. Right-click index.html and choose Open with Live Server. Keep the same address and port to access your saved uploads.
+## The exhibition
 
-## Faster image loading
-
-- 320px and 640px WebP thumbnails selected for screen size.
-- Grid cards request previews only when within 180px of the viewport.
-- Complete 1200px artwork images load only when opened in the lightbox.
-- Content-hashed image filenames and Netlify browser-cache headers.
-- Two automatic retries plus a manual retry on failed cards.
+The gallery includes 20 selected works, with four pieces in each category: Abstract, Landscape, Architecture, Photography, and Other. Each artwork has a short accompanying story. Artist and source information is documented in [`CREDITS.md`](CREDITS.md).
 
 ## Features
 
-Search, categories, favourites, light/dark themes, full-window lightbox, fullscreen, arrow-key navigation, and personal uploads with title, artist, category and description. Uploaded images, edits and favourites persist in IndexedDB.
+- Search and category filtering
+- Artwork favourites
+- Responsive gallery layout and dark/light themes
+- Full-window image viewer, fullscreen mode, and keyboard navigation
+- Personal artwork uploads with title, artist, category, and description
+- Editing and removing personal uploads
+- Local persistence for uploads and favourites using IndexedDB
+- Responsive image previews and lazy loading for faster browsing
 
-Uploads stay in this browser on this device and do not become public website content. Clearing site data removes personal uploads. Keep original files as backups. Existing curated artwork IDs and database name are preserved; favourites for pieces outside this selection are excluded from the displayed count.
+Personal uploads stay in the browser on the device where they were added. They do not become part of the public exhibition and are not uploaded to a server. Clearing browser site data can remove uploaded artwork, so keep the original image files.
 
-## Deploy
+## Built with
 
-Commit the project and push to GitHub, then deploy the latest commit on Netlify. Build command: empty. Publish directory: dot (.). No dependencies or build step. The _headers file belongs beside index.html. Old unused image files can remain in an existing checkout; the gallery references only these 20 works.
+- HTML5
+- CSS3
+- JavaScript
+- IndexedDB
 
-## Artwork credits
+## Run locally
 
-See CREDITS.md for artists and source records. The public gallery and lightbox show stories without source wording. assets/exhibition contains only the selected works and their preview variants.
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Open `index.html` with Live Server.
 
-## Instant initial previews
+No package installation or build step is required for viewing the site. Use the same local address and port when returning to access saved artwork.
 
-The first three 320px previews and their captions are embedded in index.html. They render before JavaScript is available and need no separate image requests. The app reuses those same previews after startup, including when filtering. The other 17 previews still load near the viewport; full compositions load only on opening the lightbox.
+## Project files
 
-The home page also embeds the stylesheet so CSS download latency cannot hold back its first paint. styles.css remains available for the credits page. After editing styles.css, run `node tools/sync-inline-style.cjs` from the project folder to synchronize the home page. The initial HTML cannot appear before the browser receives it; these changes eliminate additional first-preview requests, not the initial connection time.
+- `index.html` — Gallery page with initial styles and artwork previews
+- `app.js` and `collection.js` — Gallery interactions and collection data
+- `styles.css` — Stylesheet used by the credits page and as the source for home-page styles
+- `assets/exhibition/` — Artwork images and responsive previews
+- `CREDITS.md` — Artwork credits and source information
+- `_headers` — Caching instructions for supported hosts
+- `tools/sync-inline-style.cjs` — Synchronises updated styles into the home page
 
-## Smooth lightbox navigation
+The first three previews are embedded for a faster initial display, while the remaining previews load as needed. Full-resolution images are loaded when an artwork is opened in the viewer.
 
-A decoded-image cache keeps recent full images ready. After the active work finishes loading, the next and previous work in the filtered view are prefetched at low priority. Hovering over or focusing an artwork warms that work before opening it. Save-Data mode disables speculative prefetching. While a full image is loading, its thumbnail remains visible with the current title and story. Rapid navigation ignores stale completions. Failed full-image requests retry twice and then leave the preview visible with a Retry control. The opening fade animation is disabled on the lightbox image. First-row embedded previews and scroll-based grid loading remain in place.
+### Updating styles
+
+The homepage includes a copy of the CSS for faster initial rendering. After changing `styles.css`, run:
+
+```bash
+node tools/sync-inline-style.cjs
+```
+
+This keeps the embedded homepage styles in sync.
+
+## Deployment
+
+The project can be hosted as a static website on GitHub Pages or Netlify. No build command is required. For Netlify, set the publish directory to the repository root (`.`).
